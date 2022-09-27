@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+  </head>
+  <body>
+      <py-script>
+        # Calcular la raíz cuadrada de un número introducido por el usuario
+        import math # Importamos el módulo math para poder utilizarlo en nuestro programa 
+        numero = int(input("Por favor, introduzca un número: ")) # Pedimos un número al usuario. 
+        #En este ejemplo será entero, pero puede ser de cualquier tipo numérico.
+        resultado = math.sqrt(numero) 
+        # Para acceder a un método dentro un módulo, escribimos
+        # módulo.método. 
+        print(resultado)
+
+      </py-script>
+  
+  </body>
+</html>
